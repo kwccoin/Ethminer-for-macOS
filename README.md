@@ -36,13 +36,13 @@ mkdir build; cd build
 cmake ..
 ```
 
-4. Afterwards, run `cmake` again but from your current directory, the build directory
+4. Afterwards, run `cmake` again, but from your current directory, the build directory
 ```
 cmake --build .
 ```
 
 ## Launching `ethminer`
-Once installation succeded, go to the `ethminer` directory (from the build directory). Type in `./ethminer` and you're good to go.
+Once installation succedes, go to the `ethminer` directory (from the build directory). Type in `./ethminer` and you're good to go.
 
 
 ## Support
