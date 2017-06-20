@@ -45,7 +45,7 @@ Once installation succeded, go to the `ethminer` directory (from the build direc
 
 
 ## Support
-While I am full-time programmer, I do not use C/C++ in my daily life, at least not at a level where I can actively develop this fork. However, with that being said, I will do my best to maintain this fork as problems come up.
+While I am full-time programmer, I do not use C/C++ in my daily life, at least not at a level where I can actively develop this fork. However, with that being said, I will do my best to maintain this fork as issues arise.
 
 
 ## Maintained By
