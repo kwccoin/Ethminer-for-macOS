@@ -39,3 +39,11 @@ cmake --build .
 
 ## Launching `ethminer`
 Once installation succeded, go to the `ethminer` directory (from the build directory). Type in `./ethminer` and you're good to go.
+
+
+## Support
+While I am full-time programmer, I do not use C/C++ in my daily life, at least not at a level where I can actively develop this fork. However, with that being said, I will do my best to maintain this fork as problems come up.
+
+
+## Maintained By
+[Arthur Ariel Sabintsev](http://www.sabintsev.com)
