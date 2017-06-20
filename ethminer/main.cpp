@@ -74,7 +74,7 @@ int main(int argc, char** argv)
 	cout << "CUDA kernel ported from Tim Hughes' OpenCL kernel" << endl;
 	cout << "With contributions from nicehash, nerdralph, RoBiK and sp_" << endl << endl;
 	cout << "Please consider a donation to:" << endl;
-	cout << "ArtSabintsev's ETH: 0x1e8cce03A2C01d18C5a68F410bfE34eea1aa16f2" << endl << endl;
+	cout << "ArtSabintsev's ETH: 0x1e8cce03A2C01d18C5a68F410bfE34eea1aa16f2" << endl;
   cout << "Genoil's ETH: 0xeb9310b185455f863f526dab3d245809f6854b4d" << endl << endl;
 
 	MinerCLI m(MinerCLI::OperationMode::Farm);
