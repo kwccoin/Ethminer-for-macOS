@@ -1,8 +1,7 @@
 # cmake global
 cmake_minimum_required(VERSION 2.8.12)
 
-set(PROJECT_VERSION "0.9.41")
-set(GENOIL_VERSION "1.1.7")
+set(PROJECT_VERSION "1.0.0")
 if (${CMAKE_VERSION} VERSION_GREATER 3.0)
 	cmake_policy(SET CMP0042 OLD) 	# fix MACOSX_RPATH
 	cmake_policy(SET CMP0048 NEW) 	# allow VERSION argument in project()
@@ -46,6 +45,9 @@ set(D_PROFILING OFF)
 set(D_OLYMPIC OFF)
 set(D_MINER ON)
 set(D_ETHSTRATUM OFF)
+
+set(brew_install brew install libjson-rpc-cpp leveldb libmicrohttpd cryptopp qt5)
+execute_process(COMMAND ${brew_install})
 
 if (BUNDLE STREQUAL "minimal")
 	set(D_GUI OFF)
@@ -172,7 +174,7 @@ function(createBuildInfo)
 		WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
 		COMMAND ${CMAKE_COMMAND} -DETH_SOURCE_DIR="${CMAKE_SOURCE_DIR}" -DETH_DST_DIR="${CMAKE_BINARY_DIR}"
 			-DETH_BUILD_TYPE="${_cmake_build_type}" -DETH_BUILD_PLATFORM="${ETH_BUILD_PLATFORM}"
-			-DPROJECT_VERSION="${PROJECT_VERSION}" -DGENOIL_VERSION="${GENOIL_VERSION}" -DETH_FATDB="${FATDB}"
+			-DPROJECT_VERSION="${PROJECT_VERSION}" -DETH_FATDB="${FATDB}"
 			-P "${ETH_SCRIPTS_DIR}/buildinfo.cmake"
 		)
 	include_directories(${CMAKE_CURRENT_BINARY_DIR})
@@ -184,7 +186,6 @@ endfunction()
 
 
 ######################################################################################################
-
 
 # Clear invalid option
 if ("${CMAKE_BUILD_TYPE}" STREQUAL "Release")
