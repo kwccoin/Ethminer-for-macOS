@@ -11,6 +11,8 @@ This is a fork of the [cpp-ethereum](https://github.com/ethereum/cpp-ethereum) p
 
 This specific repo was forked from [Genoil's cpp-ethereum Repo](https://github.com/Genoil/cpp-ethereum), which itself was forked from the official aforementined repo. This fork was made in response to the lack of maintained macOS support from Genoil's fork and from the [Official Homebrew Ethereum Formula](https://github.com/ethereum/homebrew-ethereum/).
 
+The conversation that led to this fork can be found at https://github.com/ethereum/homebrew-ethereum/issues/116.
+
 ## Pre-Installation Instructions
 Download and install the latest version of
 - Xcode from Apple at https://developer.apple.com/xcode
