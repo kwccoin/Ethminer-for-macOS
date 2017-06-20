@@ -5,8 +5,8 @@
 - Release Date: **June 20, 2017**
 - Also known as _cpp-ethereum_ and _c++-ethereum_.
 - Ethereum Donations:
- - Me: 0x1e8cce03A2C01d18C5a68F410bfE34eea1aa16f2
- - Genoil: 0xeb9310b185455f863f526dab3d245809f6854b4d
+  - Me: 0x1e8cce03A2C01d18C5a68F410bfE34eea1aa16f2
+  - Genoil: 0xeb9310b185455f863f526dab3d245809f6854b4d
  
 ## Summary
 This is a fork of the [cpp-ethereum](https://github.com/ethereum/cpp-ethereum) project that works on macOS 10.12.x (Sierra).
