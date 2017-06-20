@@ -30,7 +30,8 @@ git clone --recursive https://github.com/ArtSabintsev/cpp-ethereum.git
 mkdir build; cd build
 ```
 
-3. Run `cmake` on the root directory from within the `build` directory. Note, this will also install all the homebrew scripts you need.
+3. Run `cmake` on the root directory from within the `build` directory. 
+(Note, this will also install all the homebrew dependencies that you'll need.)
 ```
 cmake ..
 ```
