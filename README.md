@@ -7,7 +7,7 @@
 - Ethereum Donations:
   - Me: 0x1e8cce03A2C01d18C5a68F410bfE34eea1aa16f2
   - Genoil: 0xeb9310b185455f863f526dab3d245809f6854b4d
- 
+
 ## Summary
 This is a fork of the [cpp-ethereum](https://github.com/ethereum/cpp-ethereum) project that works on macOS 10.12.x (Sierra).
 
@@ -32,14 +32,15 @@ git clone --recursive https://github.com/ArtSabintsev/cpp-ethereum.git
 mkdir build; cd build
 ```
 
-3. Run _one of the the following_ `cmake` calls on the root directory from within the `build` directory. 
+3. Run _one of the the following_ `cmake` calls on the root directory from within the `build` directory.
   - This will also install all the homebrew dependencies that you'll need.
-  - **WARNING: THERE ARE ISSUES WITH CUDAMINER. PLEASE USE `-DBUNDLE=miner` FOR NOW.**
 ```
-cmake -DBUNDLE=cudaminer .. // RUN THIS IF YOU HAVE AN NVIDIA CARD AND WANT PROPRIETARY DRIVERS.
-cmake -DBUNDLE=miner .. // RUN THIS IF YOU HAVE ANY CARD (INCL. NVIDIA) AND WANT THE OPEN SOURCE 'OpenCL' DRIVERS.
-```
+// RUN THIS IF YOU HAVE AN NVIDIA CARD AND WANT PROPRIETARY DRIVERS.
+cmake -DBUNDLE=cudaminer -DETHSTRATUM=1 ..
 
+// RUN THIS IF YOU HAVE ANY CARD (INCL. NVIDIA) AND WANT THE OPEN SOURCE 'OpenCL' DRIVERS.
+cmake -DBUNDLE=miner -DETHSTRATUM=1 ..
+```
 
 4. Run `make` next:
 ```
