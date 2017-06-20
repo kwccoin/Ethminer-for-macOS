@@ -33,11 +33,13 @@ mkdir build; cd build
 ```
 
 3. Run _one of the the following_ `cmake` calls on the root directory from within the `build` directory. 
-(Note, this will also install all the homebrew dependencies that you'll need.)
+  - This will also install all the homebrew dependencies that you'll need.
+  - **WARNING: THERE ARE ISSUES WITH CUDAMINER. PLEASE USE `-DBUNDLE=miner` FOR NOW.**
 ```
-cmake -DBUNDLE=cudaminer .. // RUN THIS IF YOU HAVE AN NVIDIA CARD
-cmake -DBUNDLE=miner .. // RUN THIS IF YOU HAVE AN AMD CARD
+cmake -DBUNDLE=cudaminer .. // RUN THIS IF YOU HAVE AN NVIDIA CARD AND WANT PROPRIETARY DRIVERS.
+cmake -DBUNDLE=miner .. // RUN THIS IF YOU HAVE ANY CARD (INCL. NVIDIA) AND WANT THE OPEN SOURCE 'OpenCL' DRIVERS.
 ```
+
 
 4. Run `make` next:
 ```
@@ -54,7 +56,7 @@ Once installation succedes, go to the `ethminer` directory (from the build direc
 
 
 ## Support
-While I am full-time programmer, I do not use C/C++ in my daily life, at least not at a level where I can actively develop this fork. However, with that being said, I will do my best to maintain this fork as issues arise.
+While I am a full-time programmer, I do not use C/C++ in my daily life, at least not at a level where I can actively develop this fork. However, with that being said, I will do my best to maintain this fork as issues arise.
 
 
 ## Maintained By
