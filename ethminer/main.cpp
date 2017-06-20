@@ -68,7 +68,7 @@ void version()
 
 int main(int argc, char** argv)
 {
-	cout << "Ethminer for macOS (Fixed by ArtSabintsev) " << ETH_PROJECT_VERSION << endl;
+	cout << "Ethminer for macOS (Fixed by ArtSabintsev)" << endl;
 	cout << "=====================================================================" << endl;
 	cout << "Forked from github.com/genoil/cpp-ethereum, which itself was forked from github.com/ethereum/cpp-ethereum." << endl;
 	cout << "CUDA kernel ported from Tim Hughes' OpenCL kernel" << endl;
