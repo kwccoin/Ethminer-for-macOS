@@ -35,9 +35,11 @@ mkdir build; cd build
 3. Run _one of the the following_ `cmake` calls on the root directory from within the `build` directory. 
 (Note, this will also install all the homebrew dependencies that you'll need.)
 ```
-cmake -DBUNDLE=cudaminer .. // RUN THIS IF YOU HAVE AN NVIDIA CARD
-cmake -DBUNDLE=miner .. // RUN THIS IF YOU HAVE AN AMD CARD
+cmake -DBUNDLE=cudaminer .. // RUN THIS IF YOU HAVE AN NVIDIA CARD AND WANT PROPRIETARY DRIVERS
+cmake -DBUNDLE=miner .. // RUN THIS IF YOU HAVE ANY CARD (INCL. NVIDIA) AND WANT THE OPEN SOURCE 'OpenCL' DRIVERS.
 ```
+
+**PLEASE NOTE THAT THERE ARE ISSUES WITH CUDAMINER. PLEASE USE `-DBUNDLE=miner` FOR NOW.**
 
 4. Run `make` next:
 ```
