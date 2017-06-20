@@ -30,19 +30,25 @@ git clone --recursive https://github.com/ArtSabintsev/cpp-ethereum.git
 mkdir build; cd build
 ```
 
-3. Run `cmake` on the root directory from within the `build` directory. 
+3. Run _one of the the following_ `cmake` calls on the root directory from within the `build` directory. 
 (Note, this will also install all the homebrew dependencies that you'll need.)
 ```
-cmake ..
+cmake -DBUNDLE=cudaminer .. // RUN THIS IF YOU HAVE AN NVIDIA CARD
+cmake -DBUNDLE=miner .. // RUN THIS IF YOU HAVE AN AMD CARD
 ```
 
-4. Afterwards, run `cmake` again but from your current directory, the build directory
+4. Run `make` next:
+```
+make -j8
+```
+
+5. Afterwards, run `cmake` again, but on your current directory, the build directory
 ```
 cmake --build .
 ```
 
 ## Launching `ethminer`
-Once installation succeded, go to the `ethminer` directory (from the build directory). Type in `./ethminer` and you're good to go.
+Once installation succedes, go to the `ethminer` directory (from the build directory). Type in `./ethminer` and you're good to go.
 
 
 ## Support
