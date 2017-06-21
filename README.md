@@ -2,7 +2,7 @@
 
 ## Meta
 - Current Version: **1.0.2**
-- Release Date: **June 20, 2017**
+- Release Date: **June 21, 2017**
 - Also known as _cpp-ethereum_ and _c++-ethereum_.
 - Ethereum Donations:
   - Me: 0x1e8cce03A2C01d18C5a68F410bfE34eea1aa16f2
