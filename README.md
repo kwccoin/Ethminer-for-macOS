@@ -47,14 +47,13 @@ cmake -DBUNDLE=miner -DETHSTRATUM=1 ..
 make -j8
 ```
 
-5. Afterwards, run `cmake` again, but on your current directory, the build directory
+5. Afterwards, run `cmake` again, but on your current directory, the build directory.
 ```
 cmake --build .
 ```
 
 ## Launching `ethminer`
 Once installation succedes, go to the `ethminer` directory (from the build directory). Type in `./ethminer` and you're good to go.
-
 
 ## Support
 While I am a full-time programmer, I do not use C/C++ in my daily life, at least not at a level where I can actively develop this fork. However, with that being said, I will do my best to maintain this fork as issues arise.
