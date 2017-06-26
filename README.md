@@ -18,8 +18,8 @@ The conversation that led to this fork can be found at https://github.com/ethere
 ## Pre-Installation Instructions
 Download and install the latest version of
 - Xcode 
-    - For Nvidia Cards: Xcode 8.2 Command Line Tools at http://adcdownload.apple.com/Developer_Tools/Command_Line_Tools_macOS_10.12_for_Xcode_8.2/Command_Line_Tools_macOS_10.12_for_Xcode_8.2.dmg
-    - For everybody else: Xcode 8.3.3 or newer at https://developer.apple.com/xcode
+    - For Nvidia Cards - Xcode 8.2 Command Line Tools at http://adcdownload.apple.com/Developer_Tools/Command_Line_Tools_macOS_10.12_for_Xcode_8.2/Command_Line_Tools_macOS_10.12_for_Xcode_8.2.dmg
+    - For everything else - Xcode 8.3.3 or newer at https://developer.apple.com/xcode
 - Homebrew from https://brew.sh
 
 ## Installation Instructions
