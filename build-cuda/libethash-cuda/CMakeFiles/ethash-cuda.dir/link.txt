@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libethash-cuda.a  CMakeFiles/ethash-cuda.dir/ethash_cuda_miner.cpp.o CMakeFiles/ethash-cuda.dir/ethash-cuda_generated_ethash_cuda_miner_kernel.cu.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libethash-cuda.a

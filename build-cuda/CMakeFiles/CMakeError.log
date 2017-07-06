@@ -1,0 +1,116 @@
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /Users/wsd/github-clone/Ethminer-for-macOS/build-cuda/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12235/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_12235.dir/build.make CMakeFiles/cmTC_12235.dir/build
+Building C object CMakeFiles/cmTC_12235.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_12235.dir/CheckSymbolExists.c.o   -c /Users/wsd/github-clone/Ethminer-for-macOS/build-cuda/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/wsd/github-clone/Ethminer-for-macOS/build-cuda/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: '/System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h' file not found
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_12235.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_12235/fast] Error 2
+
+File /Users/wsd/github-clone/Ethminer-for-macOS/build-cuda/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_2 exist failed with the following output:
+Change Dir: /Users/wsd/github-clone/Ethminer-for-macOS/build-cuda/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b68ab/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b68ab.dir/build.make CMakeFiles/cmTC_b68ab.dir/build
+Building C object CMakeFiles/cmTC_b68ab.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_b68ab.dir/CheckSymbolExists.c.o   -c /Users/wsd/github-clone/Ethminer-for-macOS/build-cuda/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/wsd/github-clone/Ethminer-for-macOS/build-cuda/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: '/System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h' file not found
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_b68ab.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_b68ab/fast] Error 2
+
+File /Users/wsd/github-clone/Ethminer-for-macOS/build-cuda/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_2
+  return ((int*)(&CL_VERSION_1_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_1 exist failed with the following output:
+Change Dir: /Users/wsd/github-clone/Ethminer-for-macOS/build-cuda/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52286/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_52286.dir/build.make CMakeFiles/cmTC_52286.dir/build
+Building C object CMakeFiles/cmTC_52286.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_52286.dir/CheckSymbolExists.c.o   -c /Users/wsd/github-clone/Ethminer-for-macOS/build-cuda/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/wsd/github-clone/Ethminer-for-macOS/build-cuda/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: '/System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h' file not found
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_52286.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_52286/fast] Error 2
+
+File /Users/wsd/github-clone/Ethminer-for-macOS/build-cuda/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_1
+  return ((int*)(&CL_VERSION_1_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_0 exist failed with the following output:
+Change Dir: /Users/wsd/github-clone/Ethminer-for-macOS/build-cuda/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd197/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bd197.dir/build.make CMakeFiles/cmTC_bd197.dir/build
+Building C object CMakeFiles/cmTC_bd197.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_bd197.dir/CheckSymbolExists.c.o   -c /Users/wsd/github-clone/Ethminer-for-macOS/build-cuda/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/wsd/github-clone/Ethminer-for-macOS/build-cuda/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: '/System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h' file not found
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_bd197.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_bd197/fast] Error 2
+
+File /Users/wsd/github-clone/Ethminer-for-macOS/build-cuda/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </System/Library/Frameworks/OpenCL.framework/OpenCL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_0
+  return ((int*)(&CL_VERSION_1_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
